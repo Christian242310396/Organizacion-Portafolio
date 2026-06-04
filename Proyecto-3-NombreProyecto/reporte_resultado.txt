@@ -1,0 +1,41 @@
+==================================================
+VENTAS POR PRODUCTO
+==================================================
+Laptop: 112
+Mouse: 256
+Teclado: 143
+
+==================================================
+VENTAS POR MES
+==================================================
+Abril: 81
+Enero: 67
+Febrero: 73
+Junio: 98
+Marzo: 87
+Mayo: 105
+
+==================================================
+INGRESOS POR PRODUCTO
+==================================================
+Laptop: $1,680,000.00
+Mouse: $64,000.00
+Teclado: $85,800.00
+
+==================================================
+INDICADORES CLAVE
+==================================================
+Producto con mayores ingresos: Laptop
+Producto menos vendido: Laptop
+Mes más rentable: Mayo
+Producto prioritario para inventario: Mouse
+==================================================
+
+==================================================
+RESPUESTAS PARA TOMA DE DECISIONES
+==================================================
+Que producto es mas importante para la empresa? Laptop, porque genera los mayores ingresos.
+Que informacion es critica para la toma de decisiones? Ventas por producto, ingresos por producto y el mes mas rentable.
+Que productos deberian promocionarse mas? Laptop, porque es el menos vendido y necesita impulso.
+Que meses representan mejores oportunidades de venta? Mayo, ya que es el mes con mayores ingresos.
+==================================================
