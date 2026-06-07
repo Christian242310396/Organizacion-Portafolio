@@ -1,4 +1,4 @@
-# 📈 Proyecto 3: Sales Analytics - Motor Analítico, Persistencia en CSV y Dashboard Interactivo Híbrido
+# Proyecto 3: Sales Analytics - Motor Analítico, Persistencia en CSV y Dashboard Interactivo Híbrido
 
 ## 1. Descripción del Sistema
 Este entorno de software funciona como una solución avanzada de Inteligencia de Negocios (*Business Intelligence*) diseñada para automatizar la auditoría, análisis estadístico y visualización de registros transaccionales de tecnología. El sistema implementa una arquitectura híbrida distribuida en dos capas funcionales: un potente motor matemático estructurado en **Python 3** que procesa grandes volúmenes de datos transaccionales empleando bibliotecas científicas de alto rendimiento, y una interfaz de control web desarrollada en **PHP, HTML5 y CSS3** que actúa como puente operativo ejecutando los scripts backend mediante llamadas de sistema seguras para renderizar tableros informativos en tiempo real.
