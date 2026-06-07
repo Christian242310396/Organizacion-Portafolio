@@ -1,19 +1,18 @@
+# 🏭 Proyecto 2: Gateway Security - Motor de Autenticación y Monitor de Auditoría para Planta
 
-Proyecto 2: Gateway Security - Motor de Autenticación y Monitor de Auditoría para Planta
-
- Descripción del Sistema
-Este entorno de software funciona como un sistema de control perimetral diseñado para administrar y validar el acceso del personal en las instalaciones de una planta industrial. La solución se distribuye en dos componentes operativos: un núcleo local de validación programado en Python que simula un lector de terminales físicas, y una consola web de supervisión en tiempo real desarrollada con PHP, HTML5 y CSS3. El software procesa cada petición de entrada, verifica las credenciales operativas del usuario y escribe registros inmutables de auditoría para mitigar brechas de seguridad.
+## 1. Descripción del Sistema
+Este entorno de software funciona como un sistema de control perimetral diseñado para administrar y validar el acceso del personal en las instalaciones de una planta industrial. La solución se distribuye en dos componentes operativos: un núcleo local de validación programado en **Python** que simula un lector de terminales físicas, y una consola web de supervisión en tiempo real desarrollada con **PHP, HTML5 y CSS3**. El software procesa cada petición de entrada, verifica las credenciales operativas del usuario y escribe registros inmutables de auditoría para mitigar brechas de seguridad.
 
 ---
 
- 2. Arquitectura de Archivos y Flujo de Datos
+## 2. Arquitectura de Archivos y Flujo de Datos
 El proyecto adopta un diseño modular estricto, aislando los recursos del motor y la interfaz gráfica dentro del directorio `src/`. El ciclo de procesamiento de la información sigue el siguiente orden secuencial:
 
-1.`src/usuarios.json`: Repositorio de datos estructurado que centraliza los tokens de tarjetas, identidades del personal, áreas de trabajo y rangos de permisos.
-2. `src/control.py`: Script backend (Python) encargado de gobernar el lector de accesos. Carga el esquema JSON, itera sobre las lecturas y despacha las autorizaciones.
-3. src/auditoria.txt`: Almacén plano de persistencia incremental que actúa como un libro de actas inalterable para los eventos del sistema.
-4. src/index.php`: Panel de control web que interpreta y renderiza los renglones de la bitácora, inyectando alertas visuales automáticas cuando se detectan infracciones.
-5.`src/style.css`: Hoja de estilos encargada de la maquetación responsiva, la consistencia tipográfica y la codificación cromática de los estados de seguridad.
+1. **`src/usuarios.json`**: Repositorio de datos estructurado que centraliza los tokens de tarjetas, identidades del personal, áreas de trabajo y rangos de permisos.
+2. **`src/control.py`**: Script backend (Python) encargado de gobernar el lector de accesos. Carga el esquema JSON, itera sobre las lecturas y despacha las autorizaciones.
+3. **`src/auditoria.txt`**: Almacén plano de persistencia incremental que actúa como un libro de actas inalterable para los eventos del sistema.
+4. **`src/index.php`**: Panel de control web que interpreta y renderiza los renglones de la bitácora, inyectando alertas visuales automáticas cuando se detectan infracciones.
+5. **`src/style.css`**: Hoja de estilos encargada de la maquetación responsiva, la consistencia tipográfica y la codificación cromática de los estados de seguridad.
 
 ---
 
